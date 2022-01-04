@@ -1,3 +1,4 @@
-module.exports = function toReadable (number) {
-  
+module.exports = function reverse (number) {
+  let reverseNum = number.split("").reverse().join("");
+  return reverseNum;
 }
